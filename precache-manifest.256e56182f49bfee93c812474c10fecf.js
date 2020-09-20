@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6f296ec4395fc6401cf772cfc163c70",
+    "revision": "f3fd18e7cfdbd85fac9cc78920527edf",
     "url": "/bipartite-coloring/index.html"
   },
   {
-    "revision": "21188d52a86ebd56ac45",
+    "revision": "849b3e9f7068207941d8",
     "url": "/bipartite-coloring/static/css/main.da0e1db9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bipartite-coloring/static/js/2.3fc1613d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "21188d52a86ebd56ac45",
-    "url": "/bipartite-coloring/static/js/main.00481003.chunk.js"
+    "revision": "849b3e9f7068207941d8",
+    "url": "/bipartite-coloring/static/js/main.a3bda718.chunk.js"
   },
   {
     "revision": "04102a26d089028fbbee",
