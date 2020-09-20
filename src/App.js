@@ -200,7 +200,9 @@ function App() {
         <div className="description">
           <p>
             This app uses Depth-First Search to color a graph, such that no two
-            connected nodes have the same color.
+            connected nodes have the same color. The source code can be found{' '}
+            <a href="https://github.com/acse-fk4517/bipartite-coloring">here</a>
+            .
           </p>
           <p>
             1. On the first line, enter <b>N</b> and <b>M</b>. <br></br>
