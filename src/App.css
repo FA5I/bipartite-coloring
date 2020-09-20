@@ -1,38 +1,101 @@
 .App {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas: '. inputs graph-container';
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  margin: 20px;
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: white; */
+}
+
+nav {
+  overflow: hidden;
+  background-color: black;
+  border-bottom: 5px solid #c0c0c0;
+  margin-bottom: 40px;
+}
+
+nav a {
+  float: left;
+  /* color: #F5F5F5; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+nav a:hover {
+  background-color: white;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav a.active {
+  /* background-color: blue; */
+  /* color: white; */
+}
+
+.inputs {
+  background: lightgrey;
+  min-width: 50px;
+  /* position: absolute; */
+
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  resize: none;
+  outline: none;
+  /* overflow: hidden; */
+  font: inherit;
+  /* padding: 0 1px; */
+  /* margin: 0 -1px; */
+  /* text-indent: -1em; */
+  user-select: text;
+  white-space: pre !important;
+}
+
+.button-container {
+  margin-top: 10px;
+  text-align: center;
+}
+
+button {
+  display: inline;
+  margin: 10px 10px;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  /* text-decoration: none; */
+  /* font-size: 16px; */
+}
+
+.title {
+  display: grid;
+  text-decoration: underline #c0c0c0;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  font-size: 50px;
+  text-align: center;
+  /* border-top: 5px solid #c0c0c0; */
+  /* border-bottom: 5px solid #c0c0c0; */
+  padding: 10px;
+  /* max-width: 50%; */
+  margin: auto;
+}
+
+.description {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: justify;
 }
