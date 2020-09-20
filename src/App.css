@@ -92,11 +92,12 @@ button {
   padding: 10px;
   /* max-width: 50%; */
   margin: auto;
+  margin-bottom: 50px;
 }
 
 .description {
   max-width: 600px;
-  margin: 50px auto;
+  /* margin: 50px auto; */
   text-align: justify;
   border: 1px solid #c0c0c0;
   padding: 15px;
