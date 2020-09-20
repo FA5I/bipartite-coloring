@@ -233,11 +233,11 @@ function App() {
               <li>If a solution does not exist, all nodes will turn red.</li>
             </ul>
           </p>
+          <div className="button-container">
+            <button onClick={drawGraph}>Draw Graph</button>
+            <button onClick={colorGraph}>Color Graph</button>
+          </div>
         </div>
-      </div>
-      <div className="button-container">
-        <button onClick={drawGraph}>Draw Graph</button>
-        <button onClick={colorGraph}>Color Graph</button>
       </div>
     </div>
   )
