@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bipartite-coloring/static/css/main.da0e1db9.chunk.css",
+    "main.css": "/bipartite-coloring/static/css/main.2578c1f5.chunk.css",
     "main.js": "/bipartite-coloring/static/js/main.a3bda718.chunk.js",
     "main.js.map": "/bipartite-coloring/static/js/main.a3bda718.chunk.js.map",
     "runtime-main.js": "/bipartite-coloring/static/js/runtime-main.82eab9b6.js",
@@ -8,15 +8,15 @@
     "static/js/2.3fc1613d.chunk.js": "/bipartite-coloring/static/js/2.3fc1613d.chunk.js",
     "static/js/2.3fc1613d.chunk.js.map": "/bipartite-coloring/static/js/2.3fc1613d.chunk.js.map",
     "index.html": "/bipartite-coloring/index.html",
-    "precache-manifest.256e56182f49bfee93c812474c10fecf.js": "/bipartite-coloring/precache-manifest.256e56182f49bfee93c812474c10fecf.js",
+    "precache-manifest.ea7da14059a783e45744d05ed68d159c.js": "/bipartite-coloring/precache-manifest.ea7da14059a783e45744d05ed68d159c.js",
     "service-worker.js": "/bipartite-coloring/service-worker.js",
-    "static/css/main.da0e1db9.chunk.css.map": "/bipartite-coloring/static/css/main.da0e1db9.chunk.css.map",
+    "static/css/main.2578c1f5.chunk.css.map": "/bipartite-coloring/static/css/main.2578c1f5.chunk.css.map",
     "static/js/2.3fc1613d.chunk.js.LICENSE.txt": "/bipartite-coloring/static/js/2.3fc1613d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.82eab9b6.js",
     "static/js/2.3fc1613d.chunk.js",
-    "static/css/main.da0e1db9.chunk.css",
+    "static/css/main.2578c1f5.chunk.css",
     "static/js/main.a3bda718.chunk.js"
   ]
 }
