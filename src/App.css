@@ -1,6 +1,6 @@
 .App {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 10fr 10fr;
   grid-template-rows: repeat(1, 1fr);
   grid-template-areas: '. inputs graph-container';
   text-align: center;
@@ -46,7 +46,7 @@ nav a.active {
 }
 
 .inputs {
-  background: lightgrey;
+  background: #c0c0c0;
   min-width: 50px;
   /* position: absolute; */
 
@@ -72,8 +72,8 @@ nav a.active {
 button {
   display: inline;
   margin: 10px 10px;
-  background-color: blue;
-  color: white;
+  background-color: #c0c0c0;
+  /* color: white; */
   padding: 10px 20px;
   text-align: center;
   /* text-decoration: none; */
@@ -98,4 +98,6 @@ button {
   max-width: 600px;
   margin: 50px auto;
   text-align: justify;
+  border: 1px solid #c0c0c0;
+  padding: 15px;
 }

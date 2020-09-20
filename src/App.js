@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './App.css'
 import Graph from 'react-graph-vis'
 import { v4 as uuidv4 } from 'uuid'
-import { axisLeft } from 'd3'
 
 const max_size = 101
 
@@ -182,50 +181,6 @@ function App() {
         <a href="https://fazalkhan.net/"> back to Fazi's Homepage</a>
       </nav>
       <div className="title">Bipartite Graph Coloring</div>
-      <div className="description">
-        <p>
-          The below uses Depth-First Search to color a graph, such that no two
-          connected nodes have the same color.
-        </p>
-        <p>
-          1. On the first line, enter <b>N</b> and <b>M</b>. <br></br>
-          <ul>
-            <li>
-              <b>N</b> is the number of nodes that will be drawn. Nodes are
-              drawn numbered 1,...,<b>N</b>. <br></br>
-            </li>
-            <br></br>
-            <li>
-              <b>M</b> is the number of lines that follow, which specify the
-              edges. <br></br>
-            </li>
-            <br></br>
-            <li>
-              Edges are specifed as <b>start</b> <b>end</b>.<br></br>
-            </li>
-          </ul>
-          <br></br>
-          2. Click <b>Draw Graph</b> to create your graph. <br></br> <br></br>
-          <br></br>
-          3. Click <b>Color Graph</b> to see the bipartite coloring of the
-          graph. <br></br>
-          <ul>
-            <li>
-              If a solution exists, the graph will be colored in a bipartite
-              configuration.
-            </li>
-            <br></br>
-            <li>If a solution does not exist, all nodes will turn red.</li>
-          </ul>
-        </p>
-      </div>
-
-      <div className="button-container">
-        <button onClick={drawGraph}>Draw Graph</button>
-      </div>
-      <div className="button-container">
-        <button onClick={colorGraph}>Color Graph</button>
-      </div>
       <div className="App">
         <textarea
           value={user_input}
@@ -242,6 +197,47 @@ function App() {
             getNetwork={(network) => {}}
           />
         </div>
+        <div className="description">
+          <p>
+            This app uses Depth-First Search to color a graph, such that no two
+            connected nodes have the same color.
+          </p>
+          <p>
+            1. On the first line, enter <b>N</b> and <b>M</b>. <br></br>
+            <ul>
+              <li>
+                <b>N</b> is the number of nodes that will be drawn. Nodes are
+                drawn numbered 1,...,<b>N</b>. <br></br>
+              </li>
+              <br></br>
+              <li>
+                <b>M</b> is the number of lines that follow, which specify the
+                edges. <br></br>
+              </li>
+              <br></br>
+              <li>
+                Edges are specifed as <b>start</b> <b>end</b>.<br></br>
+              </li>
+            </ul>
+            <br></br>
+            2. Click <b>Draw Graph</b> to create your graph. <br></br> <br></br>
+            <br></br>
+            3. Click <b>Color Graph</b> to see the bipartite coloring of the
+            graph. <br></br>
+            <ul>
+              <li>
+                If a solution exists, the graph will be colored in a bipartite
+                configuration.
+              </li>
+              <br></br>
+              <li>If a solution does not exist, all nodes will turn red.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div className="button-container">
+        <button onClick={drawGraph}>Draw Graph</button>
+        <button onClick={colorGraph}>Color Graph</button>
       </div>
     </div>
   )
